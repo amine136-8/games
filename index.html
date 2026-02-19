@@ -418,9 +418,9 @@ let M={inv:false,fast:false,blind:false};
 const LVL=[
   {txt:"PRESS THE BUTTON",sub:"Let's begin. Simple.",t:"click",s:9},
   {txt:"PRESS IF YOU LIKE BOURAK",sub:"Once more.",t:"click",s:8},
-    {txt:"DO NOT PRESS IF YOU READ Bastila",sub:"Once more.",t:"wait",s:8},
-
-  {txt:"DO NOT PRESS",sub:"اصبر شوية أ صاحبي.",t:"wait",s:6},
+  {txt:"DO NOT PRESS IF YOU READ Bastila",sub:"Sorry bastila.",t:"wait",s:8},
+  {txt:"BOURAK",sub:"Vive Bourak",t:"click",s:8},
+  {txt:"DO NOT PRESS",sub:"استغفر شوية أ صاحبي.",t:"wait",s:6},
   {txt:"DOUBLE CLICK",sub:"Two rapid taps in quick succession.",t:"double",s:7},
   {txt:"PRESS 3 TIMES",sub:"Like the number of bourakat you are going to eat.",t:"clickN",p:3,s:8},
   {txt:"HOLD THE BUTTON",sub:"Hold for 2 seconds, then release.",t:"hold",p:2,s:7},
@@ -442,7 +442,7 @@ const LVL=[
   {txt:"PRESS THE BUTTON",sub:"🌑 Timer hidden. Trust your gut.",t:"click",s:7},
   {txt:"DOUBLE CLICK",sub:"Blind. Double-click. No safety net.",t:"double",s:6},
   {txt:"HOLD THE BUTTON",sub:"Hold 2 seconds. Count it in your mind.",t:"hold",p:2,s:7},
-  {txt:"PRESS 3 TIMES",sub:"Three invisible taps. Steady.",t:"clickN",p:3,s:7},
+  {txt:"PRESS 3 TIMES",sub:"1 2 3 viva l'algerie",t:"clickN",p:3,s:7},
   {txt:"DO NOT PRESS",sub:"Sight returns. But inversion is back.",t:"wait",s:4,onL(){M.blind=false},onS(){M.inv=true}},
   {txt:"PRESS THE BUTTON",sub:"Inverted + 2× speed. You know the rules.",t:"wait",s:4},
   {txt:"PRESS 6 TIMES",sub:"Inversion dropped. Six real presses.",t:"clickN",p:6,s:7,onL(){M.inv=false}},
