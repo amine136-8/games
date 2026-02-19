@@ -418,11 +418,13 @@ let M={inv:false,fast:false,blind:false};
 const LVL=[
   {txt:"PRESS THE BUTTON",sub:"Let's begin. Simple.",t:"click",s:9},
   {txt:"PRESS IF YOU LIKE BOURAK",sub:"Once more.",t:"click",s:8},
+    {txt:"DO NOT PRESS IF YOU READ Bastila",sub:"Once more.",t:"wait",s:8},
+
   {txt:"DO NOT PRESS",sub:"اصبر شوية أ صاحبي.",t:"wait",s:6},
   {txt:"DOUBLE CLICK",sub:"Two rapid taps in quick succession.",t:"double",s:7},
   {txt:"PRESS 3 TIMES",sub:"Like the number of bourakat you are going to eat.",t:"clickN",p:3,s:8},
   {txt:"HOLD THE BUTTON",sub:"Hold for 2 seconds, then release.",t:"hold",p:2,s:7},
-  {txt:"DO NOT PRESS",sub:"اصبر على رزقك.",t:"wait",s:5},
+  {txt:"BASTILA",sub:"اصبر على رزقك.",t:"wait",s:5},
   {txt:"PRESS 5 TIMES",sub:"5 بوراكات شوية بزاف عليك.",t:"clickN",p:5,s:9},
   {txt:"DO NOT PRESS",sub:"لا تثق بالمستوى القادم",t:"wait",s:5,onS(){M.inv=true}},
   {txt:"PRESS THE BUTTON",sub:"⚠ Inverted — this means DO NOT press.",t:"wait",s:5},
@@ -436,7 +438,7 @@ const LVL=[
   {txt:"DOUBLE CLICK",sub:"Fast fingers. Double speed active.",t:"double",s:5},
   {txt:"HOLD THE BUTTON",sub:"Hold 2 seconds. The clock is racing.",t:"hold",p:2,s:8},
   {txt:"PRESS 4 TIMES",sub:"Four clicks before the void claims you.",t:"clickN",p:4,s:6},
-  {txt:"DO NOT PRESS",sub:"The timer will vanish after this.",t:"wait",s:4,onS(){M.blind=true}},
+  {txt:"BASTILA",sub:"The timer will vanish after this.",t:"wait",s:4,onS(){M.blind=true}},
   {txt:"PRESS THE BUTTON",sub:"🌑 Timer hidden. Trust your gut.",t:"click",s:7},
   {txt:"DOUBLE CLICK",sub:"Blind. Double-click. No safety net.",t:"double",s:6},
   {txt:"HOLD THE BUTTON",sub:"Hold 2 seconds. Count it in your mind.",t:"hold",p:2,s:7},
